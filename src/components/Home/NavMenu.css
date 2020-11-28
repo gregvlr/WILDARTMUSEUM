@@ -1,5 +1,4 @@
-.navmenu-container,
-.navmenu-menu {
+.navmenu-container, .navmenu-menu {
     height: 70px;
     width: 80px;
     position: absolute;
@@ -107,4 +106,10 @@ a>.navmenu-react-icons:hover {
 .navmenu-icons-hover {
     transition: 1s;
     transform: scale(1);
+}
+
+@media screen and (max-width: 950px) {
+    .flowerMenu {
+        display : none;
+    }
 }

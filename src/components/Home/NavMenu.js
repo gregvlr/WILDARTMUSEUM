@@ -39,7 +39,7 @@ class NavMenu extends Component {
 
   render () {
     return (
-      <div>
+      <div className="flowerMenu">
         <div className="navmenu-container" onClick={() => this.expand(this.state.open)}>
           <div className="navmenu-toggle" id="navmenu-toggle">
             <i className="navmenu-react-icons" id="navmenu-add">
